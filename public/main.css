@@ -65,7 +65,7 @@ html, body{
   height:100%;
 }
 .sidebar ul li:not(:last-child){
-  padding-bottom: 5px;
+  padding-bottom: 7px;
 }
 
 .sidebar ul li a svg{
@@ -86,4 +86,22 @@ html, body{
   margin: 0 0 0 2px;
   height: 36px;
   width: 36px;
+}
+
+.sidebar ul li a:hover svg{
+  width: 42px;
+  height:42px;
+  transition: all 0.3s ease;
+}
+.sidebar ul li:hover{
+  width: 42px;
+  height:42px;
+}
+.sidebar ul li:hover{
+  padding-bottom: 5px;
+}
+
+.sidebar ul li a:hover svg#mail{
+  height: 38px;
+  width: 38px;
 }

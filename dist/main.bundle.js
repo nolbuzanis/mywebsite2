@@ -77,23 +77,45 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./app.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./app.js":
+/*!****************!*\
+  !*** ./app.js ***!
+  \****************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const express = __webpack_require__(/*! express */ \"express\");\n\nconst path = __webpack_require__(/*! path */ \"path\");\n\nvar app = express(),\n    DIST_DIR = __dirname,\n    HTML_FILE = path.join(DIST_DIR, 'index.html');\nconst PORT = process.env.PORT || 8000;\napp.use(express.static(path.join(__dirname, 'dist'))); // template engine setup\n//app.set('views', './src')\n//app.set('view engine', 'pug')\n// Home route for get request\n\napp.get('/', function (req, res) {\n  contact = {\n    one: {\n      title: 'GitHub',\n      link: 'https://github.com/nolbuzanis'\n    },\n    two: {\n      title: 'LinkedIn',\n      link: 'https://ca.linkedin.com/in/nolanbuzanis'\n    },\n    three: {\n      title: 'Facebook',\n      link: 'https://www.facebook.com/nolan.buzanis'\n    },\n    four: {\n      title: 'Facebook',\n      link: 'mailto:nolanbuzanis@gmail.com'\n    }\n  };\n  res.render('index', {\n    title: 'Home',\n    header: 'Nolan Buzanis'\n  });\n});\napp.listen(PORT, function () {\n  console.log('Running on port: ' + PORT);\n});\n\n//# sourceURL=webpack:///./app.js?");
+
+/***/ }),
+
+/***/ "express":
+/*!**************************!*\
+  !*** external "express" ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open '/Users/nbuzanis/Projects/mywebsite2/src/app.js'\");\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("module.exports = require(\"express\");\n\n//# sourceURL=webpack:///external_%22express%22?");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"path\");\n\n//# sourceURL=webpack:///external_%22path%22?");
 
 /***/ })
 

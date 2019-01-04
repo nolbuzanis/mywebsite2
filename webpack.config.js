@@ -13,7 +13,8 @@ const babel = {
   test: /\.js/,
   exclude: /node_modules/,
   use: {
-    loader = "babel-loader"
+    loader: "babel-loader",
+    query: {}
   }
 }
 
@@ -31,18 +32,15 @@ const config = {
   },
   externals: [nodeExternals()],
     module: {
-      rules: [babel]
+      rules: [pug, babel]
     },
-  module: {
-    rules: [pug]
-  },
   plugins: [
     new HtmlWebpackPlugin({
       filename: './index.html',
       template: './src/index.pug',
       //exclude app.js from html file
       excludeChunks: [ 'app' ], 
-      inject: false
+      inject: true
     })
   ]
 }

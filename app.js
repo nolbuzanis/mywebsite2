@@ -1,21 +1,22 @@
 const express = require('express')
 const path = require('path')
 
-var app = express()
+var app = express(),
+          DIST_DIR = __dirname,
+          HTML_FILE = path.join(DIST_DIR, 'index.html')
 
 const PORT = process.env.PORT || 8000
 
-app.use(express.static(path.join(__dirname, 'src')))
+app.use(express.static(path.join(__dirname, 'dist')))
 
 // template engine setup
 
-app.set('views', './src')
-app.set('view engine', 'pug')
-
+//app.set('views', './src')
+//app.set('view engine', 'pug')
 
 // Home route for get request
 app.get('/', function(req, res){
-
+  
   contact = {
     one: {
       title: 'GitHub',

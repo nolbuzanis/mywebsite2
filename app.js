@@ -1,14 +1,17 @@
 const express = require('express')
 const path = require('path')
+
 var app = express()
 
 const PORT = process.env.PORT || 8000
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'src')))
 
 // template engine setup
-app.set('views', './views')
+
+app.set('views', './src')
 app.set('view engine', 'pug')
+
 
 // Home route for get request
 app.get('/', function(req, res){

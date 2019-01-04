@@ -105,3 +105,9 @@ html, body{
   height: 38px;
   width: 38px;
 }
+
+.menu {
+  float: right;
+  position: absolute;
+  
+}

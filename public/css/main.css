@@ -24,7 +24,7 @@ html, body{
   width: 100%;
   cursor: default;
   z-index: 100;
-  top: 42%;
+  top: 45%;
   pointer-events: none;
 }
 
@@ -46,6 +46,13 @@ html, body{
   z-index: 10;
   top: 35%;
   /*border-radius: 0 20% 20% 0;*/
+}
+
+.sidebar-right {
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+  right: 15px;
 }
 
 .sidebar ul{
@@ -104,4 +111,31 @@ html, body{
 .sidebar ul li a:hover svg#mail{
   height: 38px;
   width: 38px;
+}
+
+.sidebar-right a svg {
+  height: 70px;
+  width: 70px;
+}
+.sidebar-right a svg path {
+  fill: rgba(255,255,255,0.7);
+}
+
+.sidebar-right a:hover svg path {
+  fill: white;
+}
+
+.sidebar-right a {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgba(255,255,255,0.7);
+  /*font-variant: small-caps; */
+}
+.sidebar-right a span {
+  position: absolute;
+  top: 23px;
+  right: 60px;
+}
+.sidebar-right a:hover {
+  color: rgba(255,255,255,1);
 }

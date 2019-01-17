@@ -6,6 +6,8 @@ particlesJS.load('particles-js', './particles.json', function() {
 
 var button = document.getElementById('projects-menu').addEventListener('click', showProjects);
 
+document.getElementById('projects-back').addEventListener('click', showProjects);
+
 function showProjects() {
   console.log('Button clicked');
   document.getElementById('projects').classList.toggle('hide-projects');

@@ -16,3 +16,13 @@ function showProjects() {
   document.getElementById('projects').classList.toggle('show');
   document.getElementById('headercontent').classList.toggle('show');
 }
+
+// Initialize Isotope
+
+var elem = document.querySelector('.grid');
+var iso = new Isotope(elem, {
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'masonry',
+  percentPosition: true
+});

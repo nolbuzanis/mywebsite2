@@ -36,7 +36,7 @@ html, body{
   padding: 0;
   background: 0;
   color: white; 
-  font-size: 50px;
+  font-size: 64px;
   font-variant: small-caps;
   pointer-events: none;
 }
@@ -55,7 +55,7 @@ html, body{
   z-index: 10;
   top: 45%;
   right: 10px;
- 
+  font-variant: small-caps;
 }
 
 .sidebar ul{
@@ -208,14 +208,14 @@ div#projects {
   padding-bottom: 20%;
   margin: 2% 3%;
   background: #e6e5e4;
+  border-radius: 13px;
 }
-/*
-.item {
-  position: absolute;
-  background: black;
-  left:5%;
-  right: 5%;
-  top: 5%;
-  bottom: 5%;
-  border-radius: 20px;
-}*/
+
+#projects h2 {
+  color: white;
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 60px;
+  margin: 0px;
+  font-variant: small-caps;
+}

@@ -2,7 +2,7 @@ html
   head
     title= title
     link(rel='stylesheet', href='/css/main.css')
-  body
+  body.body-overflow
     div#headercontent.show
       div.header
         h1= header
@@ -68,25 +68,29 @@ html
 
       div.grid
         .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #1'
         .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #2'
         .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #3'
         .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #4'
         .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #5'
         .grid-item
-          a.item
-        .grid-item
-          a.item
-        .grid-item
-          a.item
-        .grid-item
-          a.item
-        .grid-item
-          a.item
+          a(href='#').item
+            .mask
+              h3='Project #6'
 
     script(src='./js/particles.js')
     script(src='./js/jquery.min.js')

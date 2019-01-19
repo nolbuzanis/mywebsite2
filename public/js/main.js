@@ -15,6 +15,7 @@ function showProjects() {
 
   document.getElementById('projects').classList.toggle('show');
   document.getElementById('headercontent').classList.toggle('show');
+  document.body.classList.toggle('body-overflow');
 }
 
 // Initialize Isotope

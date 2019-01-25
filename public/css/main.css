@@ -155,7 +155,7 @@ div#projects {
   box-sizing: border-box;
   position: relative;
   width: 100%;
-  background: rgba(0,0,0,0.9);
+  background: #14181f;
   transition: all ease 0.8s;
   padding: 100px;
 }
@@ -258,4 +258,17 @@ a.item:hover .mask {
   width: 99%;
   top: 50%;
   margin-top: -12px;
+}
+
+/* Modals */
+
+portfolio-modal {
+  display: block;
+  background: rgba(0,0,0,0.9);
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

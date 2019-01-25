@@ -3,6 +3,8 @@ particlesJS.load('particles-js', './particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
+// Change to portfolio grid during dev
+window.addEventListener('load',showProjects);
 
 var button = document.getElementById('projects-menu').addEventListener('click', showProjects);
 

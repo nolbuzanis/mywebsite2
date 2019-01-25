@@ -3,8 +3,6 @@ const path = require('path')
 var app = express()
 const port = 8000
 
-
-
 app.use(express.static(path.join(__dirname, 'public')))
 
 // template engine setup

@@ -315,5 +315,18 @@ a.item:hover .mask {
 .portfolio-modal .container ul li a:hover {
   background: white;
   transition: all ease 0.5s;
-  color: black;
+  color: #3393FF;
+}
+.portfolio-modal .container ul li a svg {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+.portfolio-modal .container ul li a span {
+  margin-left: 35px;
+}
+.portfolio-modal .container ul li a:hover svg{
+  fill: #3393FF;
+  transition: all ease 0.5s;
 }

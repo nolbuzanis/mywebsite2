@@ -11,7 +11,6 @@ var button = document.getElementById('projects-menu').addEventListener('click', 
 document.getElementById('projects-back').addEventListener('click', showProjects);
 
 function showProjects() {
-  console.log('Button clicked');
   document.getElementById('projects').classList.toggle('hide-projects');
   document.getElementById('headercontent').classList.toggle('hide-main');
 
@@ -29,3 +28,17 @@ var iso = new Isotope(elem, {
   layoutMode: 'masonry',
   percentPosition: true
 });
+
+// Modals
+
+var modals = document.getElementsByClassName('portfolio-modal');
+var n = document.getElementsByClassName('item').length;
+
+for(let i=0; i<n; i++) {
+  document.getElementsByClassName('item')[i].addEventListener('click', test);
+}
+
+
+function test() {
+  console.log('Link clicked!');
+}

@@ -263,7 +263,8 @@ a.item:hover .mask {
 /* Modals */
 
 .portfolio-modal {
-  display: block;
+  display: none;
+  /*display: block;*/
   background: rgba(0,0,0,0.9);
   position: fixed;
   z-index: 1000;

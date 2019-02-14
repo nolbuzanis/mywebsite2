@@ -335,3 +335,21 @@ a.item:hover .mask {
 .displayBlock {
   display: block;
 }
+
+.modal-close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.modal-close svg {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.modal-close svg path{
+  fill: white;
+}
+.modal-close svg:hover path{
+  fill: rgba(255,255,255,0.75);
+  transition: all ease 0.3s;
+}

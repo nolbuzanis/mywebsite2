@@ -47,12 +47,13 @@ function showModal(n){
   if(!name){
     return;
   }
-  console.log(name);
 
   modal = document.getElementById(name);
-  modal.classList.toggle('displayBlock');
-  console.log(modal);
+  modal.classList.add('displayBlock');
 
+modal.getElementsByClassName('modal-close')[0].addEventListener('click', ()=>{
+  modal.classList.remove('displayBlock');
+});
 }
   
 

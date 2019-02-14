@@ -331,3 +331,7 @@ a.item:hover .mask {
   fill: #3393FF;
   transition: all ease 0.5s;
 }
+
+.displayBlock {
+  display: block;
+}

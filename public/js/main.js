@@ -32,18 +32,27 @@ var iso = new Isotope(elem, {
 // Modals
 
 var modals = document.getElementsByClassName('portfolio-modal');
-console.log(modals);
+
 var portfolioLink = document.getElementsByClassName('item');
+var n = portfolioLink.length;
 
- portfolioLink[0].addEventListener('click', test);
- portfolioLink[1].addEventListener('click', test);
- portfolioLink[2].addEventListener('click', test);
- portfolioLink[3].addEventListener('click', test);
- portfolioLink[4].addEventListener('click', test);
- portfolioLink[5].addEventListener('click', test);
+for(i=0;i<n;i++){
+  portfolioLink[i].addEventListener('click', showModal);
+}
 
-function test(n){
-  console.log(this);
+function showModal(n){
+
+  var name = this.href.split("#")[1];
+
+  if(!name){
+    return;
+  }
+  console.log(name);
+
+  modal = document.getElementById(name);
+  modal.classList.toggle('displayBlock');
+  console.log(modal);
+
 }
   
 

@@ -32,13 +32,18 @@ var iso = new Isotope(elem, {
 // Modals
 
 var modals = document.getElementsByClassName('portfolio-modal');
-var n = document.getElementsByClassName('item').length;
+console.log(modals);
+var portfolioLink = document.getElementsByClassName('item');
 
-for(let i=0; i<n; i++) {
-  document.getElementsByClassName('item')[i].addEventListener('click', test);
+ portfolioLink[0].addEventListener('click', test);
+ portfolioLink[1].addEventListener('click', test);
+ portfolioLink[2].addEventListener('click', test);
+ portfolioLink[3].addEventListener('click', test);
+ portfolioLink[4].addEventListener('click', test);
+ portfolioLink[5].addEventListener('click', test);
+
+function test(n){
+  console.log(this);
 }
+  
 
-
-function test() {
-  console.log('Link clicked!');
-}

@@ -3,27 +3,12 @@ particlesJS.load('particles-js', './particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
-// Change to portfolio grid during dev
-//window.addEventListener('load',showProjects);
-
+// Portfolio menu button
 var button = document.getElementById('scrollToProjects').addEventListener('click', ()=>{
   console.log('Clicked!');
     document.getElementById('projects').scrollIntoView();
 });
 
-//document.getElementById('projects-back').addEventListener('click', showProjects);
-/*
-function showProjects() {
-  document.getElementById('projects').classList.toggle('hide-projects');
-  document.getElementById('headercontent').classList.toggle('hide-main');
-
-  document.getElementById('projects').classList.toggle('show');
-  document.getElementById('headercontent').classList.toggle('show');
-  document.body.classList.toggle('body-overflow');
-
-  
-}
-*/
 // Initialize Isotope
 
 var elem = document.querySelector('.grid');

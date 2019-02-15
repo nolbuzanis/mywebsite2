@@ -111,9 +111,10 @@ html {
 .menu-down{
   z-index: 10;
   position: absolute;
-  bottom: 80px;
+  bottom: 5px;
   text-align: center;
   width: 100%;
+  transition: all ease 0.3s;
 }
 
 .menu-down a{
@@ -135,7 +136,7 @@ html {
 .menu-down a svg {
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  margin: -15px auto 0;
   width: 70px;
   height: 70px;
 }
@@ -180,25 +181,6 @@ div#projects {
   width: 100%;
   height: 100%;
   transition: all ease 0.8s;
-}
-
-#projects-back {
-  position: absolute;
-  left: 10px;
-  top: 300px;
-  transition: all ease 0.8s;
-  display: block;
-}
-
-#projects-back svg {
-  height: 70px;
-  width: 70px;
-}
-#projects-back svg path{
-  fill: rgba(255,255,255,0.7);
-}
-#projects-back:hover svg path{
-  fill: rgba(255,255,255,1);
 }
 
 /* Isotope */

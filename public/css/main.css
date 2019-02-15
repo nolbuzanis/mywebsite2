@@ -356,3 +356,7 @@ a[href='#project-website1']{
   background: url('/img/website1.png') center center no-repeat;
   background-size: cover;
 }
+a[href='#299robot']{
+  background: url('/img/299_arm.png') center center no-repeat;
+  background-size: cover;
+}

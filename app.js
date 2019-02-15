@@ -40,9 +40,15 @@ projects = {
   },
   two: {
     title: 'Personal Website',
-    content: 'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
+    content: 'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create my first online portfolio, a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
     link: 'http://www.nolanbuzanis.com/index.html',
     github: 'https://github.com/nolbuzanis/nolanbuzanis.com'
+  },
+  three: {
+    title: 'Ball-dropper Robot',
+    content: 'Involved programming a 2-wheel robot to autonomously navigate a playfield and compete against other bots in a goal-scoring competition. The playfield is made up of 3 infrared beacons (\'0\', \'1\', and \'2\') to help guide the robot, black tape for navigation, and a "goal". Balls are placed the ledge beneath one of the beacons in a random order, and the infrared beacon is then activated above it. The robot must navigate to the beacon, pick up the ball from the ledge, and place the ball in the goal to score a point. The object of the competition was to score the most goals in a 2-minute interval. Technologies learned: Hardware and software interfacing, DC motor control, servo motor positioning, and electronic interfacing of LED\'s, switches, resistors, capacitors, and chips. We also tinkered with various battery power supplies, infrared sensing and communication, and basic wireless communication using Bluetooth.',
+    link: '',
+    github: 'https://github.com/nolbuzanis/Mechatronics-Project'
   }
 }
 

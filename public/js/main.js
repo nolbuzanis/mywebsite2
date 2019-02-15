@@ -4,12 +4,15 @@ particlesJS.load('particles-js', './particles.json', function() {
 });
 
 // Change to portfolio grid during dev
-window.addEventListener('load',showProjects);
+//window.addEventListener('load',showProjects);
 
-var button = document.getElementById('projects-menu').addEventListener('click', showProjects);
+var button = document.getElementById('scrollToProjects').addEventListener('click', ()=>{
+  console.log('Clicked!');
+    document.getElementById('projects').scrollIntoView();
+});
 
-document.getElementById('projects-back').addEventListener('click', showProjects);
-
+//document.getElementById('projects-back').addEventListener('click', showProjects);
+/*
 function showProjects() {
   document.getElementById('projects').classList.toggle('hide-projects');
   document.getElementById('headercontent').classList.toggle('hide-main');
@@ -17,8 +20,10 @@ function showProjects() {
   document.getElementById('projects').classList.toggle('show');
   document.getElementById('headercontent').classList.toggle('show');
   document.body.classList.toggle('body-overflow');
-}
 
+  
+}
+*/
 // Initialize Isotope
 
 var elem = document.querySelector('.grid');

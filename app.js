@@ -52,8 +52,14 @@ projects = {
   },
   four: {
     title: 'Spackler Guitar Pedal',
-    content: 'The Spackler guitar pedal is a mid-range volume boost with the goal of adding "warmth" or "depth" to a guitar signal. It is not my original design, but I chose to build it to learn the fundamentals of PCB design using EagleCAD and improve my soldering and wiring of electronics.',
+    content: 'A mid-range volume boost with the goal of adding "warmth" or "depth" to a guitar signal. It is not my original design, but I chose to build it to learn the fundamentals of PCB design using EagleCAD and improve my soldering and wiring of electronics.',
     link: ''
+  },
+  five: {
+    title: 'Quadcopter',
+    content: 'The design and build of an quadcopter, controlled via Arduino. Over 50 different hardware components were part of the final design, including custom 3D printed parts and a repurposed PS2 controller. Unfortunately, the drone was not completed due to the fact that it was stolen. Check out the link below for a video of the full build.',
+    link: '',
+    github: 'https://github.com/nolbuzanis/Autonomous-Drone'
   }
 }
 

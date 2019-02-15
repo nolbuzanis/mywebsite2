@@ -352,3 +352,7 @@ a[href='#project-ecogrow']{
   background: url('/img/pottedplant.jpeg') center center no-repeat;
   background-size: cover;
 }
+a[href='#project-website1']{
+  background: url('/img/website1.png') center center no-repeat;
+  background-size: cover;
+}

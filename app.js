@@ -37,6 +37,12 @@ projects = {
     content: 'The EcoGrow module assists users with growing fresh fruits and vegetables through an Arduino-based monitoring system. The module is an enclosed insulated system which monitors a plant’s humidity, temperature, and light levels. Readings from the HTU21D humidity and temperature sensor, and the photodiode are outputted to an LCD which can be read by the user. The water control mechanism is controlled using a position servo motor, in which signals sent to the motor results in the movement of a rubber stopper, controlling the flow of water to the plant.',
     link: '',
     github: 'https://github.com/nolbuzanis/EcoGrow'
+  },
+  two: {
+    title: 'Personal Website',
+    content: 'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
+    link: 'http://www.nolanbuzanis.com/index.html',
+    github: 'https://github.com/nolbuzanis/nolanbuzanis.com'
   }
 }
 

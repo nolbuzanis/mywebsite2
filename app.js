@@ -31,9 +31,19 @@ app.get('/', function(req, res){
     }
   }
 
+projects = {
+  one: {
+    title: 'Ecogrow',
+    content: 'The EcoGrow module assists users with growing fresh fruits and vegetables through an Arduino-based monitoring system. The module is an enclosed insulated system which monitors a plant’s humidity, temperature, and light levels. Readings from the HTU21D humidity and temperature sensor, and the photodiode are outputted to an LCD which can be read by the user. The water control mechanism is controlled using a position servo motor, in which signals sent to the motor results in the movement of a rubber stopper, controlling the flow of water to the plant.',
+    link: '',
+    github: 'https://github.com/nolbuzanis/EcoGrow'
+  }
+}
+
   res.render('index', {
     title: 'Nolan Buzanis',
-    header: 'Nolan Buzanis'
+    header: 'Nolan Buzanis',
+    mantra: 'Engineer | Entrepreneur'
   })
 })
 

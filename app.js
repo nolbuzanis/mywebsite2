@@ -58,7 +58,7 @@ projects = {
   five: {
     title: 'Quadcopter',
     content: 'The design and build of an quadcopter, controlled via Arduino. Over 50 different hardware components were part of the final design, including custom 3D printed parts and a repurposed PS2 controller. Unfortunately, the drone was not completed due to the fact that it was stolen. Check out the link below for a video of the full build.',
-    link: '',
+    link: 'https://youtu.be/rW0U2fz6_Jw',
     github: 'https://github.com/nolbuzanis/Autonomous-Drone'
   }
 }

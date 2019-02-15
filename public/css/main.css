@@ -159,7 +159,7 @@ div#projects {
   width: 100%;
   background: #14181f;
   transition: all ease 0.8s;
-  padding: 100px;
+  padding: 100px 40px;
 }
 
 .hide-projects {
@@ -199,9 +199,9 @@ div#projects {
 
 .grid-item {
   float: left;
-  width: 27.3%;
+  width: 29%;
   padding-bottom: 20%;
-  margin: 2% 3%;
+  margin: 1.3% 2%;
   background: #e6e5e4;
   border-radius: 13px;
 }

@@ -360,3 +360,7 @@ a[href='#299robot']{
   background: url('/img/299_arm.png') center center no-repeat;
   background-size: cover;
 }
+a[href='#volume-pedal']{
+  background: url('/img/spackler-dramatic.jpg') center center no-repeat;
+  background-size: cover;
+}

@@ -368,3 +368,7 @@ a[href='#quadcopter']{
   background: url('/img/quadcopter-cool.jpg') center center no-repeat;
   background-size: cover;
 }
+a[href='#getoutside']{
+  background: url('/img/getoutside.png') center center no-repeat;
+  background-size: cover;
+}

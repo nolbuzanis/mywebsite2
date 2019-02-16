@@ -60,6 +60,12 @@ projects = {
     content: 'The design and build of an quadcopter, controlled via Arduino. Over 50 different hardware components were part of the final design, including custom 3D printed parts and a repurposed PS2 controller. Unfortunately, the drone was not completed due to the fact that it was stolen. Check out the link below for a video of the full build.',
     link: 'https://youtu.be/rW0U2fz6_Jw',
     github: 'https://github.com/nolbuzanis/Autonomous-Drone'
+  },
+  six: {
+    title: 'Get Outside',
+    content: 'A Javascript Web app used to pinpoint interesting locations near you to walk or run to. The Google Maps API, Google Nearby Search API, and HTML Geolocation are used in collaboration to create this app.',
+    link: 'https://nolbuzanis.github.io/Get-Outside/',
+    github: 'https://github.com/nolbuzanis/Get-Outside'
   }
 }
 
